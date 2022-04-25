@@ -1,11 +1,11 @@
 {
   "message": "All Coins",
-  "wallet_id": "zKoIu-13435-2342-asfjk-34556",
+  "wallet_id": "c0inS-13435-2342-zksh-34556",
   "user_balance": "15.455",
   "data": [
     {
       "currency_name": "Bitcoin",
-      "cotation": "194.706.48",
+      "cotation": "194.706",
       "symbol": "BTC",
       "image_url": "https://panda-crypto-images.s3.amazonaws.com/512d12d5c9a9b30c6d53-Bitcoin.png",
       "details": {
@@ -15,7 +15,7 @@
     },
     {
       "currency_name": "Ethereum",
-      "cotation": "14.417.15",
+      "cotation": "14.417",
       "symbol": "ETH",
       "image_url": "https://panda-crypto-images.s3.amazonaws.com/ea4136ed8e00dbfc99d7-ethe.png",
       "details": {
@@ -35,7 +35,7 @@
     },
     {
       "currency_name": "Dogecoin",
-      "cotation": "0.7656",
+      "cotation": "0.76",
       "symbol": "DOGE",
       "image_url": "https://panda-crypto-images.s3.amazonaws.com/8b4ed22ec89da926c125-Dogecoin.png",
       "details": {
