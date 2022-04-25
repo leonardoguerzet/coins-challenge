@@ -7,20 +7,22 @@ Projeto: Lista de Moedas
 
 Você deve realizar um fork deste repositório e, ao finalizar, enviar o link do seu repositório para a nossa equipe (ti@coins.com.br). Lembre-se, NÃO é necessário criar um Pull Request para isso, nós iremos avaliar e retornar por email o resultado do seu teste.
 
+🖥 O que desenvolver?
+
+- Lista de Criptomoedas baseada no json
+- Mostrar o Saldo do usuario e ID da carteira
+- Ao Clicar em uma moeda motrar os detalhes dela (Pode ser expandido, snackBar ou Tela nova)
+
 
 🚨 Requisitos
 
-O App deve ser feito em Dart/Flutter
+- O App deve ser feito em Dart/Flutter
+- Não editar o json de forma alguma
+- Proibido uso de MobX ou geração de código
 
-OBJETIVO: Lista de Criptomoedas com base no JSON
-
-Usar Gerencia de Estado
+OBS: Todos os dados devem ser baseados no JSON
 
 Interface deve ser completamente separada da Model, requisições e controladores
-
-- Model
-- Controller
-- View
 
 
 🕵🏻‍♂️ Itens a serem avaliados
@@ -33,16 +35,15 @@ Interface deve ser completamente separada da Model, requisições e controladore
 - Qualidade da UX [Qualidade de uso da tela]
 - Bugs [Serão considerados na avaliação]
 - Gerencia de Estado [Persistencia e reatividade]
+- Performance
 
 
 🎁 Extra
 Esses itens não são obrigatórios, porém desejados.
 
+- Shimmer effect para carregar os dados (Moedas etc...)
 - GetX ou ValueNotify com ou sem RXNotify
 - Arquitetura Limpa
-
-🖥 O que desenvolver?
-Uma Tela de Criptomoedas com base no JSON
 
 UI/UX e fluxo de navegação fica livre para o seu gosto!
 
