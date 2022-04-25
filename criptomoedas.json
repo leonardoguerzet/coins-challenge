@@ -1,0 +1,68 @@
+{
+    "message": "All Coins",
+    "data": [
+      {
+        "currency_name": "Bitcoin",
+        "cotation": "194.706.48",
+        "fee": 3.345,
+        "symbol": "BTC",
+        "image_url": "https://panda-crypto-images.s3.amazonaws.com/512d12d5c9a9b30c6d53-Bitcoin.png"
+      },
+      {
+        "currency_name": "Ethereum",
+        "cotation": "14.417.15",
+        "fee": 3.000,
+        "symbol": "ETH",
+        "image_url": "https://panda-crypto-images.s3.amazonaws.com/ea4136ed8e00dbfc99d7-ethe.png"
+      },
+      {
+        "currency_name": "Litecoin",
+        "cotation": "508.29",
+        "fee": 0.012,
+        "symbol": "LTC",
+        "image_url": "https://panda-crypto-images.s3.amazonaws.com/d5a9f4c71bc49d5d5e17-Litecoin.png"
+      },
+      {
+        "currency_name": "Dogecoin",
+        "cotation": "0.7656",
+        "fee": 0.001,
+        "symbol": "DOGE",
+        "image_url": "https://panda-crypto-images.s3.amazonaws.com/8b4ed22ec89da926c125-Dogecoin.png"
+      },
+      {
+        "currency_name": "Dash",
+        "cotation": "481.70",
+        "fee": 1.777,
+        "symbol": "DASH",
+        "image_url": "https://panda-crypto-images.s3.amazonaws.com/15484d45e078c88c07db-Dash.png"
+      },
+      {
+        "currency_name": "Chainlink",
+        "cotation": "65.16",
+        "fee": 0.012,
+        "symbol": "LINK",
+        "image_url": "https://panda-crypto-images.s3.amazonaws.com/5c07c561b1419a189c14-Chainlink.png"
+      },
+      {
+        "currency_name": "Axie Infinity",
+        "cotation": "207.33",
+        "fee": 0.435,
+        "symbol": "AXS",
+        "image_url": "https://panda-crypto-images.s3.amazonaws.com/a91277f12ag891-axie-infinity.png"
+      },
+      {
+        "currency_name": "Decentraland",
+        "cotation": "9.62",
+        "fee": 0.003,
+        "symbol": "MANA",
+        "image_url": "https://panda-crypto-images.s3.amazonaws.com/l82jbs981nsdd43-decentraland.png"
+      },
+      {
+        "currency_name": "Avalanche",
+        "cotation": "348.77",
+        "fee": 0.078,
+        "symbol": "AVAX",
+        "image_url": "https://panda-crypto-images.s3.amazonaws.com/avax.png"
+      }
+    ]
+  }
