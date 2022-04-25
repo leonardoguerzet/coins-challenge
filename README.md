@@ -25,21 +25,21 @@ Interface deve ser completamente separada da Model, requisições e controladore
 
 🕵🏻‍♂️ Itens a serem avaliados
 
-Parse dos dados [formatação para Reais R$]
-Clareza nos dados exibidos na tela
-Estrutura do Projeto !Muito importante!
-Qualidade de código [Evitar gambiarra]
-Uso de Package [Usar o minimo de package]
-Qualidade da UX [Qualidade de uso da tela]
-Bugs [Serão considerados na avaliação]
-Gerencia de Estado [Persistencia e reatividade]
+- Parse dos dados [formatação para Reais R$] 
+- Clareza nos dados exibidos na tela
+- Estrutura do Projeto !Muito importante!
+- Qualidade de código [Evitar gambiarra]
+- Uso de Package [Usar o minimo de package]
+- Qualidade da UX [Qualidade de uso da tela]
+- Bugs [Serão considerados na avaliação]
+- Gerencia de Estado [Persistencia e reatividade]
 
 
 🎁 Extra
 Esses itens não são obrigatórios, porém desejados.
 
-GetX ou ValueNotify com ou sem RXNotify
-Arquitetura Limpa
+- GetX ou ValueNotify com ou sem RXNotify
+- Arquitetura Limpa
 
 🖥 O que desenvolver?
 Uma Tela de Criptomoedas com base no JSON
