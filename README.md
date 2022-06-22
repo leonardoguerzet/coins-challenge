@@ -1,16 +1,25 @@
 # desafio_flutter_coins
 
-Projeto Moeda
+Projeto: Lista de Moedas
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Projeto criado utilizando o tema "dark", atendendo todos os requisitos dos itens a serem avaliados.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Utilizei uma splash screen interativa ao iniciar o aplicativo e shimmer effect no carregamento dos 
+dados, além de uma arquitetura limpa e bem estruturada.  
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Para o gerenciamento de estados, evitei utilizar o pacote GetX e optei pelo uso do setState.
+
+
+Os dados fictícios adicionados são apenas a variação no saldo disponível do usuário e o volume/24h 
+da crypto, sem alterar o json, apenas com o intuito de demonstração.
+
+
+Meus contatos:
+
+Email: leonardofernandesg@gmail.com
+Whatsapp: (27)99225-2235
+Instagram: @leonardoguerzet
