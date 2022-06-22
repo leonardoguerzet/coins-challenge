@@ -42,7 +42,7 @@ class CoinNegotiation extends StatelessWidget {
             ],
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+            padding: const EdgeInsets.symmetric(horizontal: 37, vertical: 10),
             child: Text('Taxa: ${data.fee}', style: theme.textTheme.caption,),
           ),
         ],
