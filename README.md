@@ -16,7 +16,7 @@ Utilizei uma splash screen interativa ao iniciar o aplicativo e shimmer effect n
 dados, além de uma arquitetura limpa e bem estruturada.  
 
 
-Para o gerenciamento de estados, vou substituir o setState (atual) para o GetX.
+Para o gerenciamento de estados, estou utilizando o GetX.
 
 
 Os dados fictícios adicionados são apenas a variação no saldo disponível do usuário e o volume/24h 

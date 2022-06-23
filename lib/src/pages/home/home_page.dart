@@ -21,21 +21,21 @@ class HomePage extends StatelessWidget {
       ),
       body: SingleChildScrollView(
         child: Column(
-          children: const [
-            SizedBox(
+          children: [
+            const SizedBox(
               height: 25,
             ),
             AccountBalance(),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.symmetric(horizontal: 16),
               child: Divider(
                 color: Color.fromRGBO(97, 99, 119, 1),
               ),
             ),
-            SizedBox(height: 15,),
+            const SizedBox(height: 15,),
             UserBalance(),
           ],
         ),

@@ -1,5 +1,6 @@
 import 'package:desafio_flutter_coins/src/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -19,9 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
         const Duration(
           seconds: 2,
         ), () {
-      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (c) {
-        return const HomePage();
-      }));
+      Get.to(const HomePage());
     });
   }
 
