@@ -4,6 +4,7 @@ import 'package:desafio_flutter_coins/src/pages/coin_detail/widgets/coin_negotia
 import 'package:desafio_flutter_coins/src/pages/coin_detail/widgets/coin_stats.dart';
 import 'package:desafio_flutter_coins/src/pages/home/widgets/notification_icon.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class SingleCoin extends StatelessWidget {
   const SingleCoin({Key? key, required this.data}) : super(key: key);
@@ -16,7 +17,7 @@ class SingleCoin extends StatelessWidget {
       appBar: AppBar(
         leading: GestureDetector(
           onTap: (){
-            Navigator.of(context).pop();
+           Get.back();
           },
           child: const Icon(Icons.arrow_back),
         ),

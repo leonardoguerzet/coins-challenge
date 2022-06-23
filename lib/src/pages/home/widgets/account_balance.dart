@@ -20,9 +20,13 @@ class AccountBalance extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              "Saldo Disponível",
-              style: theme.textTheme.caption,
+            Row(
+              children: [
+                Text(
+                  "Saldo Disponível",
+                  style: theme.textTheme.caption,
+                ),
+              ],
             ),
             const SizedBox(
               height: 6,
