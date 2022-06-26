@@ -1,16 +1,23 @@
-import 'package:desafio_flutter_coins/src/pages/splash/splash_screen.dart';
+import 'package:desafio_flutter_coins/src/controller/splash_controller.dart';
+import 'package:desafio_flutter_coins/src/pages/home/home_page.dart';
 import 'package:desafio_flutter_coins/src/utils/custom_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
 
-  runApp(const MyApp());
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  MyApp({Key? key}) : super(key: key);
+
+  SplashController con = Get.put(SplashController());
 
 
   @override
@@ -30,7 +37,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: kPrimaryColor,
         appBarTheme: const AppBarTheme(elevation: 0, color: kPrimaryColor),
       ),
-      home: SplashScreen(),
+      home: HomePage(),
     );
   }
 }
