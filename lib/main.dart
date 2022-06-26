@@ -5,11 +5,13 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
+
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +30,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: kPrimaryColor,
         appBarTheme: const AppBarTheme(elevation: 0, color: kPrimaryColor),
       ),
-      home: const SplashScreen(),
+      home: SplashScreen(),
     );
   }
 }
